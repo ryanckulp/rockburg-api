@@ -43,5 +43,17 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 3.6.0'
+  gem 'spring-commands-rspec'
+  gem 'factory_bot_rails', '~> 4.8.0'
+  gem 'rails-controller-testing'
+  gem 'database_cleaner'
+  gem 'webmock'
+  gem 'shoulda-callback-matchers', '~> 1.1.1'
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
