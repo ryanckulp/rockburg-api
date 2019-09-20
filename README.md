@@ -1,24 +1,6 @@
-# README
+# Rockburg
+Rockburg is a music industry simulation game that I've had brewing in my ([@Shpigford](https://twitter.com/Shpigford)) head for years.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Back in the early 2000's I was super in to this game called Project Rockstar and it met an untimely death thanks to trademark issues with their name. Poor guys.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ultimately what I'm trying to do here is build a fun, modern simulation game. I have no idea what I'm doing, so all input is more than welcome!
