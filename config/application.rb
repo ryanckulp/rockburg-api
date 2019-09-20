@@ -34,5 +34,14 @@ module RockburgApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.autoload_paths << Rails.root.join('lib')
+
+    config.generators do |g|
+      g.test_framework  :rspec, :fixture => false
+      g.fixture_replacement :factory_bot, dir: 'spec/factories'
+      g.view_specs = false
+      g.helper_specs = false
+      g.assets = false # stylesheets
+      g.helper = true
+    end
   end
 end
