@@ -17,6 +17,11 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'jwt', '~> 2.2'
 
+gem 'seedbank' # seed data organization
+gem 'colorize' # colored strings are nice for debugging
+gem 'awesome_print' # print anything in the console
+gem 'fast_blank' # a booster for .blank?/.present? calls
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
